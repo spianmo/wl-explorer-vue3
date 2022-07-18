@@ -1,0 +1,71 @@
+{
+  "name": "wl-explorer-vue3",
+  "version": "0.2.24",
+  "author": "weilan<https://github.com/hql7>",
+  "license": "GNU",
+  "private": false,
+  "main": "lib/wl-explorer.umd.min.js",
+  "bugs": {
+    "url": "https://github.com/hql7/wl-explorer/issues"
+  },
+  "homepage": "https://github.com/hql7/wl-explorer/#readme",
+  "keywords": "SkyDrive Explorer Cloud-disk file-manager 文件管理器 资源管理器 云盘 网盘操作台 vue element-ui wl-explorer",
+  "description": "用于vue框架的文件管理器插件，类云盘，网盘。File manager plug-in for vue framework, cloud disk.  ",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name wl-explorer --dest lib ./src/pages/index.js",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@element-plus/icons": "^0.0.11",
+    "@imengyu/vue3-context-menu": "^1.0.9",
+    "axios": "^0.19.0",
+    "core-js": "^3.3.2",
+    "element-plus": "^2.2.8",
+    "jspdf_preview": "^0.1.2",
+    "vue": "^3.0.0",
+    "vue-video-player": "^5.0.2",
+    "wl-explorer": "^0.1.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.0.0",
+    "@vue/cli-plugin-eslint": "^4.0.0",
+    "@vue/cli-service": "^4.0.0",
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-component": "^1.1.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "vue-cli-plugin-element": "^1.0.1",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:hql7/wl-explorer.git"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
